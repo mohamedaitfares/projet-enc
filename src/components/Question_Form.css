@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.question-list {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.question {
+    margin-bottom: 2rem;
+}
+
+.question label {
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.question input[type="text"],
+.question textarea {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.question select {
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.add-question {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.preview {
+    flex: 1;
+}
+
+.preview label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.preview input[type="text"],
+.preview textarea {
+    background-color: #eee;
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.preview select {
+    background-color: #eee;
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+h1,
+h2,
+label {
+    margin: 0;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-type {
+    margin-left: 10px;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 20px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.option input[type="text"] {
+    flex: 1;
+}
+
+.add-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-option input[type="text"] {
+    flex: 1;
+}
+
+.preview-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.preview-container h2 {
+    margin-bottom: 10px;
+}
+div>div {
+    margin-bottom: 20px;
+}
+.container {
+    min-height: 100vh;
+}
+.preview-container {
+    overflow: auto;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+}
+.field {
+    overflow: auto;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    margin: auto;
+    max-width: 500px;
+}
